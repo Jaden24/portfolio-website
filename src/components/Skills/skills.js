@@ -36,4 +36,8 @@ const Skills = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Skills
+=======
+export default Skills
+>>>>>>> 36d7930 (1:30 About page done)
