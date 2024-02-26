@@ -14,6 +14,7 @@
 .worksTitle{
     margin: 1rem 0; 
     font-size: 3rem;
+    /* margin-bottom: 1rem; */
 }
 
 
@@ -46,6 +47,44 @@
     border-radius: 2rem; 
     background: white;
     font-size: 1rem;
+}
+
+
+.project {
+    display: flex;
+    margin-bottom: 2rem; /* Adjust margin as needed */
+    align-items: center; /* Vertically center content */
+}
+
+.projectImg {
+    width: 300px; /* Adjust width as needed */
+    margin-right: 100px; /* Adjust margin as needed */
+    margin-top: 1rem;
+}
+
+.divider {
+    height: 100%;
+    width: 2px;
+    background-color: #000; /* Adjust color as needed */
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.content {
+    flex-grow: 1;
+    /* margin-top: 1rem; */
+}
+
+.projectDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+/* Adjust the width of the image and content */
+.clientImg,
+.content {
+    width: 50%;
 }
 
 @media screen and (max-width: 585px){

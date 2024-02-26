@@ -1,4 +1,4 @@
-#contactPage{
+#contactPage {
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem; 
@@ -10,8 +10,7 @@
     justify-content: center;
 }
 
-
-.contactPageTitle{
+.contactPageTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
@@ -19,15 +18,48 @@
 .clientDesc {
     font-weight: 300;
     font-size: 1rem;
+    text-align: left;
 }
 
-.clientImgs{
-    margin: 1rem 0; 
-    display: flex; 
+.client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clientImgContainer {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 0 1rem;
+}
+
+.clientImg {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Allow the height to adjust proportionally */
+    max-width: 100%; /* Set a maximum width for the image */
+    width: 300px; /* Set a fixed width for the image (adjust as needed) */
+}
+
+
+
+.divider {
+    flex: 0 0 auto;
+    border-left: 1px solid #ccc;
+    margin: 0 1rem;
+}
+
+.content {
+    flex: 1 1 auto;
+    padding: 0 1rem;
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
     flex-wrap: wrap;
 }
 
-.clientImg{
+.clientImg {
     object-fit: cover;
     width: 23%;
     min-width: 9rem;
@@ -35,19 +67,15 @@
     padding: 0.25rem;
 }
 
-#clients{
-    padding: 2rem; 
-}
-
-.contactDesc{
+.contactDesc {
     padding: 1rem;
     font-size: medium;
-    font-weight: 300; 
+    font-weight: 300;
 }
 
-.contactForm{
-    margin: 1rem; 
-    display: flex; 
+.contactForm {
+    margin: 1rem;
+    display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -55,27 +83,25 @@
     max-width: 60rem;
 }
 
-
 .msg, .name, .email {
     font-size: medium;
     width: 100%;
     max-width: 40rem;
     margin: 0.5rem auto;
-    padding: 0.5rem 1rem; 
+    padding: 0.5rem 1rem;
     color: white;
-    border: none; 
-    border-radius: 0.5rem; 
+    border: none;
+    border-radius: 0.5rem;
     background: rgb(40, 40, 40);
 }
 
-
-.submitBtn{
+.submitBtn {
     background: white;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem auto;
     padding: 0.75rem 2rem;
-    width: 10rem; 
+    width: 10rem;
     font-size: 1rem;
 }
 
@@ -84,7 +110,7 @@
     flex-wrap: wrap;
 }
 
-.link{
+.link {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
