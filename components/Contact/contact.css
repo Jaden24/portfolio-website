@@ -1,0 +1,132 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem; 
+    margin: 0 auto; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.jobTitle{
+    margin-bottom: 1rem;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.clientImgs{
+    margin: 1rem 0; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.clientImg{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+
+#clients{
+    padding: 2rem; 
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300; 
+}
+
+.contactForm{
+    margin: 1rem; 
+    display: flex; 
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.client {
+    display: flex;
+    margin-bottom: 2rem; /* Adjust margin as needed */
+    align-items: center; /* Vertically center content */
+}
+
+.clientImg {
+    width: 150px; /* Adjust width as needed */
+    margin-right: 100px; /* Adjust margin as needed */
+
+}
+
+.divider {
+    height: 100%;
+    width: 2px;
+    background-color: #000; /* Adjust color as needed */
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: auto;
+    text-align: left;
+}
+
+/* Adjust the width of the image and content */
+.clientImg,
+.content {
+    width: 50%;
+}
+
+
+.msg, .name, .email {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem; 
+    color: white;
+    border: none; 
+    border-radius: 0.5rem; 
+    background: rgb(40, 40, 40);
+}
+
+
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    padding: 0.75rem 2rem;
+    width: 10rem; 
+    font-size: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
